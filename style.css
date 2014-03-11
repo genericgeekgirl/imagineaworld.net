@@ -1,5 +1,9 @@
 @import url(http://fonts.googleapis.com/css?family=Fredericka+the+Great|Cabin+Sketch|Open+Sans);
 
+#color-gplus{color:#dd4b39}
+#color-twitter{color:#55acee}
+#color-facebook{color:#3B5998}
+
 .rainbow {
     color: purple;
     -webkit-text-fill-color: transparent;
