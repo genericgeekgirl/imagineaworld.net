@@ -11,6 +11,13 @@
     background-image: -webkit-linear-gradient(left, red, orange, yellow, green, blue, purple, purple, blue, green, yellow, orange, red);
 }
 
+.rainbow2 {
+    color: purple;
+    -webkit-text-fill-color: transparent;
+    -webkit-background-clip: text;
+    background-image: -webkit-linear-gradient(left, red, orange, yellow, green, blue, purple);
+}
+
 h1 {
     font-size: 64px;
     line-height: 78px;
