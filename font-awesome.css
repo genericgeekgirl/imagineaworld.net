@@ -11,6 +11,17 @@
   font-weight: normal;
   font-style: normal;
 }
+
+.fa                                                                                                                                           
+{
+    text-decoration: none;
+}
+span.fa.solo
+{
+    display: none;
+}
+
+
 .fa {
   display: inline-block;
   font-family: FontAwesome;
