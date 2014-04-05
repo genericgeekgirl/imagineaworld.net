@@ -36,6 +36,7 @@ h2 {
     font-family: "Cabin Sketch",cursive;
     font-weight: 400;
     font-style: normal;
+    color:black;
 }
 
 p {
@@ -48,14 +49,85 @@ p {
 }
 
 .wrap {
-    margin: 30px;
+    margin: 50px;
 }
 
-body {
-    margin: 0 auto;
-    font-family: "Open Sans",sans-serif;
-    font-size:13px;
+body                                                                                                                                          
+{
+    font-family: 'Open Sans', sans-serif;
+    font-weight: 400;
+    font-size: 11.5pt;
+    line-height: 2em;
 }
+
+a {
+    text-decoration: none;
+}
+
+a:hover { text-decoration: underline; }
+
+#footer { text-align:center }
+
+ul.contact li {
+    position: relative;
+    display: inline-block;
+    margin: 0 0.25em 0 0.25em;
+    top: 0;
+    -moz-transition: top .15s ease-in-out;
+    -webkit-transition: top .15s ease-in-out;
+    -o-transition: top .15s ease-in-out;
+    -ms-transition: top .15s ease-in-out;
+    transition: top .15s ease-in-out;
+}
+
+ul.contact li a {
+    display: block;
+    position: relative;
+    width: 48px;
+    height: 48px;
+    border-radius: 6px;
+    outline: 0;
+    -moz-transition: background-color .2s ease-in-out;
+    -webkit-transition: background-color .2s ease-in-out;
+    -o-transition: background-color .2s ease-in-out;
+    -ms-transition: background-color .2s ease-in-out;
+    transition: background-color .2s ease-in-out;
+    background:#8b9790;
+    text-align: center;
+}
+			
+ul.contact li a:before {
+    color: #f2f5f3;
+    font-size: 32px;
+    line-height: 48px;
+}
+			
+ul.contact li:hover a.fa-pencil	{ background-color: purple }
+ul.contact li:hover a.fa-facebook	{ background-color: #3C5A98; }
+ul.contact li:hover a.fa-twitter	{ background-color: #2DAAE4; }
+ul.contact li:hover a.fa-rss		{ background-color: #F2600B; }
+ul.contact li:hover a.fa-google-plus	{ background-color: #DA2713; }
+
+ul.contact a:hover { text-decoration: none; }
+
+ul.contact li:hover
+{
+    top: -5px;
+}
+
+ul.contact li:active
+{
+    top: 0;
+}
+
+#copyright {
+    display: inline-block;
+    padding: 0.75em 2em 0.75em 2em;
+    border-radius: 8px;
+    font-size: 15px;
+}
+
+
 
 
 @media only screen and (max-width : 480px) {
