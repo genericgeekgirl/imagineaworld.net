@@ -18,6 +18,12 @@
     background-image: -webkit-linear-gradient(left, red, orange, yellow, green, blue, purple);
 }
 
+header {
+max-width: 35em;
+margin: 0 auto;
+margin-top:50px;
+}
+
 h1 {
     font-size: 64px;
     line-height: 78px;
@@ -48,8 +54,11 @@ p {
     font-style: normal;
 }
 
-.wrap {
-    margin: 50px;
+.wrap { 
+margin-top:50px;
+margin-bottom:50px;
+margin-left:100px;
+margin-right:100px;
 }
 
 body                                                                                                                                          
@@ -66,7 +75,7 @@ a {
 
 a:hover { text-decoration: underline; }
 
-#footer { text-align:center }
+#footer { text-align:center; }
 
 ul.contact li {
     position: relative;
@@ -131,13 +140,31 @@ ul.contact li:active
 
 
 @media only screen and (max-width : 480px) {
+
+
+h1 {
+    font-size: 50px;
+    line-height:60px;
+}
+
+.wrap {
+margin-left:10px;
+margin-right:10px;
+}
+
 }
 
 @media only screen and (max-width : 650px) and (min-width : 481px) {
+
+.wrap {
+margin-left:50px;
+margin-right:50px;
 }
 
-@media only screen and (max-width : 1050px) and (min-width : 651px) { */
 }
 
-@media only screen and (max-width : 1290px) and (min-width : 1051px) { */
+@media only screen and (max-width : 1050px) and (min-width : 651px) {
+}
+
+@media screen and (max-width : 1290px) and (min-width : 1051px) {
 }
