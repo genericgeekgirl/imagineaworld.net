@@ -1,21 +1,10 @@
 @import url(http://fonts.googleapis.com/css?family=Fredericka+the+Great|Cabin+Sketch|Open+Sans);
 
-#color-gplus{color:#dd4b39}
-#color-twitter{color:#55acee}
-#color-facebook{color:#3B5998}
-
 .rainbow {
     color: purple;
     -webkit-text-fill-color: transparent;
     -webkit-background-clip: text;
     background-image: -webkit-linear-gradient(left, red, orange, yellow, green, blue, purple, purple, blue, green, yellow, orange, red);
-}
-
-.rainbow2 {
-    color: purple;
-    -webkit-text-fill-color: transparent;
-    -webkit-background-clip: text;
-    background-image: -webkit-linear-gradient(left, red, orange, yellow, green, blue, purple);
 }
 
 header {
