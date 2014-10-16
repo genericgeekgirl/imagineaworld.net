@@ -14,7 +14,8 @@
 
 <div class="wrap">
 
-<h1>Whoops!</h1><h2>There's nothing to see here.</h2>
+<h1>Whoops.</h1>
+<h2 id="blurb"></h2>
 
 <p style="text-align:center;"><a href="index.html"><i class="fa fa-home fa-5x"></i></a></p>
 
@@ -22,3 +23,19 @@
  
 </body>
 </html>
+
+
+<script type="text/javascript">
+
+  var randomtext=new Array()
+  randomtext[0]="Take me away from here, it's lame. I hate it."
+  randomtext[1]="Don't like it here. It's smelly."
+  randomtext[2]="This is boring, why did you bring me here? It's lame."
+  randomtext[3]="What is this place anyway, it's rubbish, take me somewhere else."
+  randomtext[4]="Where ARE we? It's Lame-o. LAME-O."
+  randomtext[5]="I don't wanna be here."
+  randomtext[6]="I don't like this. You promised me fun. This isn't fun."
+
+  document.getElementById("blurb").innerHTML = randomtext[Math.floor(Math.random()*randomtext.length)];
+  
+</script>
