@@ -81,6 +81,13 @@ p {
     padding:50px;
 }
 
+/* links */
+
+a { text-decoration: none; color: purple; }
+
+a:hover { text-decoration: underline; }
+
+
 body {
     font-family: 'Rambla', sans-serif;
     font-weight: 400;
@@ -90,11 +97,14 @@ body {
     padding: 0;
 }
 
-/* links */
 
-a { text-decoration: none; color: purple; }
-
-a:hover { text-decoration: underline; }
+body {
+  background: url("../images/background.png") no-repeat center center fixed; 
+  -webkit-background-size: cover;
+  -moz-background-size: cover;
+  -o-background-size: cover;
+  background-size: cover;
+}
 
 /* footer */
 
@@ -104,15 +114,6 @@ footer {
     text-align:center;
     position:relative;
     width: 100%;
-/*    background-image: -webkit-linear-gradient(top, white, purple); */
-}
-
-body {
-  background: url("/home/adri/Desktop/GDOB5HTH1ID2MTL.png") no-repeat center center fixed; 
-  -webkit-background-size: cover;
-  -moz-background-size: cover;
-  -o-background-size: cover;
-  background-size: cover;
 }
 
 
