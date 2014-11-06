@@ -74,7 +74,7 @@ p {
 
 .content {
     margin-top:50px;
-    margin-bottom:100px;
+    margin-bottom:50px;
     margin-left:100px;
     margin-right:100px;
     background:white;
@@ -99,11 +99,12 @@ body {
 
 
 body {
-  background: url("../images/background.png") no-repeat center center fixed; 
-  -webkit-background-size: cover;
-  -moz-background-size: cover;
-  -o-background-size: cover;
-  background-size: cover;
+    background-color:#978b92;
+    background: url("../images/background.png") no-repeat center center fixed;
+    -webkit-background-size: cover;
+    -moz-background-size: cover;
+    -o-background-size: cover;
+    background-size: cover;
 }
 
 /* footer */
@@ -183,8 +184,8 @@ ul.contact li:active
 
 .copy a:hover { color: white; text-decoration:none }
 
+/* phone */
 @media only screen and (max-width : 480px) {
-
 
 h1 {
     font-size: 50px;
@@ -201,10 +202,13 @@ margin-left:10px;
 margin-right:10px;
 }
 
-body { background-image: none; }
+body { background-image: none; background-color: white; }
+ul.contact li a { background:#8b9790; }
+.copy a:hover { color: purple; text-decoration:none }
 
 }
 
+/* tablet */
 @media only screen and (max-width : 650px) and (min-width : 481px) {
 
 .content {
@@ -213,7 +217,9 @@ margin-right:50px;
 
 }
 
-body { background-image: none; }
+ul.contact li a { background:#8b9790; }
+.copy a:hover { color: purple; text-decoration:none }
+.copy a { color: white; }
 
 }
 
