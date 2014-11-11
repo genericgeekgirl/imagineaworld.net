@@ -1,4 +1,4 @@
-@import url(http://fonts.googleapis.com/css?family=Cabin+Sketch|Mouse+Memoirs|Rambla);
+@import url(http://fonts.googleapis.com/css?family=Cabin+Sketch|Mouse+Memoirs|Rambla|Lobster+Two);
 
 /* text effects */
 
@@ -176,10 +176,10 @@ ul.contact li:active
 .copy {
     font-weight:bold;
     display: inline-block;
-    padding: 0.75em 2em 0.75em 2em;
+    padding-bottom: 0.75em;
     border-radius: 8px;
-    font-size: 20px;
-    font-family: "Cabin Sketch",cursive;
+    font-size: 40px;
+    font-family: "Lobster Two",cursive;
 }
 
 .copy a:hover { color: white; text-decoration:none }
