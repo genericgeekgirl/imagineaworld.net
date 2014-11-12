@@ -1,4 +1,4 @@
-@import url(http://fonts.googleapis.com/css?family=Cabin+Sketch|Mouse+Memoirs|Rambla|Lobster+Two);
+@import url(http://fonts.googleapis.com/css?family=Cabin+Sketch|Mouse+Memoirs|Rambla);
 
 /* text effects */
 
@@ -10,9 +10,9 @@
 }
 
 .shadow {
-    -webkit-text-shadow: 2px 2px 0 rgba(255,255,255,0.9);
-    -moz-text-shadow: 2px 2px 0 rgba(255,255,255,0.9);
-    text-shadow: 2px 2px 0 rgba(255,255,255,0.9);
+    -webkit-text-shadow: 2px 2px 0 rgba(255,255,255,1);
+    -moz-text-shadow: 2px 2px 0 rgba(255,255,255,1);
+    text-shadow: 2px 2px 0 rgba(255,255,255,1);
 }
 
 .shadow2 {
@@ -179,7 +179,7 @@ ul.contact li:active
     padding-bottom: 0.75em;
     border-radius: 8px;
     font-size: 40px;
-    font-family: "Lobster Two",cursive;
+    font-family: "Cabin Sketch",cursive;
 }
 
 .copy a:hover { color: white; text-decoration:none }

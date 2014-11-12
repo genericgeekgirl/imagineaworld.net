@@ -1,4 +1,4 @@
-@import url(http://fonts.googleapis.com/css?family=Cabin+Sketch|Mouse+Memoirs|Rambla);
+@import url(http://fonts.googleapis.com/css?family=Cabin+Sketch|Mouse+Memoirs);
 
 .rainbow {
     color:purple;
@@ -7,7 +7,7 @@
     background-image: -webkit-linear-gradient(top left, purple, blueviolet, blue, green, yellow, orange, red);
 }
 
-body { background:black; }
+body { background:white; }
 
 .shadow {
     -webkit-text-shadow: 2px 2px 0 rgba(255,255,255,0.2);
@@ -54,3 +54,11 @@ body {
     font-size: 11.5pt;
 }
 
+.copy {
+    font-weight:bold;
+    display: inline-block;
+    padding-bottom: 0.75em;
+    border-radius: 8px;
+    font-size: 200px;
+    font-family: "Cabin Sketch",cursive;
+}
