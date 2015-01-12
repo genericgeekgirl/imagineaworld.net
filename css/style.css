@@ -117,6 +117,13 @@ footer {
     width: 100%;
 }
 
+/* count down */
+
+#countdownTimer {
+    text-align:center;
+    font-size:20px;
+    color:purple;
+}
 
 /* social media */
 
