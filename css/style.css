@@ -30,7 +30,7 @@
 /* header */
 
 header {
-    max-width: 35em;
+    max-width: 37em;
     margin: 0 auto;
     margin-top:50px;
 }
@@ -98,7 +98,7 @@ body {
 }
 
 
-body {
+body.index {
     background-color:#978b92;
     background: url("../images/background.png") no-repeat center center fixed;
     -webkit-background-size: cover;
