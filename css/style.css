@@ -194,35 +194,40 @@ ul.contact li:active
 /* phone */
 @media only screen and (max-width : 480px) {
 
-h1 {
-    font-size: 50px;
-    line-height:60px;
-}
+    h1 {
+        font-size: 50px;
+        line-height:60px;
+    }
 
+    .content {
+        margin-left:10px;
+        margin-right:10px;
+    }
 
-.content {
-margin-left:10px;
-margin-right:10px;
-}
+    ul.contact a.fa-pencil	{ background-color: purple }
+    ul.contact a.fa-facebook	{ background-color: #3C5A98; }
+    ul.contact a.fa-twitter	{ background-color: #2DAAE4; }
+    ul.contact a.fa-rss		{ background-color: #F2600B; }
+    ul.contact a.fa-google-plus	{ background-color: #DA2713; }
 
-body { background-image: none; background-color: white; }
-ul.contact li a { background:#8b9790; }
-.copy a:hover { color: purple; text-decoration:none }
-
+    #footer .rainbow {
+        background-image: -webkit-linear-gradient(white, white);
+        color:white;
+    }
 }
 
 /* tablet */
 @media only screen and (max-width : 650px) and (min-width : 481px) {
 
-.content {
-margin-left:50px;
-margin-right:50px;
+    .content {
+        margin-left:50px;
+        margin-right:50px;
 
-}
+    }
 
-ul.contact li a { background:#8b9790; }
-.copy a:hover { color: purple; text-decoration:none }
-.copy a { color: white; }
+    ul.contact li a { background:#8b9790; }
+    .copy a:hover { color: purple; text-decoration:none }
+    .copy a { color: white; }
 
 }
 
